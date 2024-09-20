@@ -1,0 +1,23 @@
+<div>
+<button type="button" class="cart-button" >Total pret</button>
+</div>
+<aside class="cart" id="cart">
+    <h2>Shopping Cart</h2>
+    @for (cartItem of cartItems; track cartItem.id) {
+        <div>
+            <h4>{{cartItem.name}}</h4>
+            <p>{{cartItem.price}}</p>
+            <p>{{cartItem.quantity}}</p>
+            <p>{{cartItem.price}} x {{cartItem.quantity}}</p>
+            
+            
+        </div>
+        
+    }
+    <ul id="cartItems"></ul>
+    <div id="totalDisplay">
+     
+    </div>
+    
+</aside>
+

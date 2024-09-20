@@ -1,0 +1,91 @@
+[
+    {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+    "price": 99.99,
+    "discount": 15,
+    "category": "Electronics"
+    },
+    {
+    "id": 2,
+    "name": "Smart Watch",
+    "description": "Track your fitness and notifications with our all-new smart watch.",
+    "price": 199.99,
+    "category": "Wearables"
+    },
+    {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with superior sound quality and bass.",
+    "price": 70.00,
+    "discount": 10,
+    "category": "Electronics"
+    },
+    {
+    "id": 4,
+    "name": "Ergonomic Chair",
+    "description": "Stay comfortable with our fully adjustable ergonomic office chair.",
+    "price": 249.99,
+    "category": "Furniture"
+    },
+    {
+    "id": 5,
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with multiple brightness settings and color modes.",
+    "price": 45.99,
+    "category": "Furniture"
+    },
+    {
+    "id": 6,
+    "name": "Gaming Mouse",
+    "description": "High-precision gaming mouse with customizable buttons.",
+    "price": 59.99,
+    "discount": 20,
+    "category": "Electronics"
+    },
+    {
+    "id": 7,
+    "name": "Digital Camera",
+    "description": "Capture every moment with our high-resolution digital camera.",
+    "price": 350.00,
+    "category": "Electronics"
+    },
+    {
+    "id": 8,
+    "name": "External Hard Drive",
+    "description": "Expand your storage with our 1TB external hard drive.",
+    "price": 89.99,
+    "discount": 5,
+    "category": "Electronics"
+    },
+    {
+    "id": 9,
+    "name": "Smart Thermostat",
+    "description": "Control your home temperature remotely with our smart thermostat.",
+    "price": 120.00,
+    "category": "Home Automation"
+    },
+    {
+    "id": 10,
+    "name": "Yoga Mat",
+    "description": "Premium quality yoga mat for the ultimate comfort and grip.",
+    "price": 35.00,
+    "category": "Fitness"
+    },
+    {
+    "id": 11,
+    "name": "Coffee Maker",
+    "description": "Brew perfect coffee every time with our programmable coffee maker.",
+    "price": 85.99,
+    "discount": 10,
+    "category": "Appliances"
+    },
+    {
+    "id": 12,
+    "name": "Electric Kettle",
+    "description": "Fast boiling electric kettle with auto-shutoff and temperature control.",
+    "price": 25.99,
+    "category": "Appliances"
+    }
+    ]

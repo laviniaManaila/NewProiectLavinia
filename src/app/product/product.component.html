@@ -1,0 +1,19 @@
+
+        @if (product) {
+            <div class="product-container">
+                <h3>{{product.id}}</h3>
+                <p>{{product.name}}</p>
+                <p>{{product.description}}</p>
+                <!-- Preț cu/ fără discount -->
+                @if (product.discount) {
+                    <p class="discount">{{product.price}}</p>
+                    <p>{{ product.price * ((100 - product.discount) / 100) }}</p>
+                } @else {
+                    <p>{{product.price}}</p>
+                }
+                <p>{{product.category}}</p>
+                <button type="button" class="add-to-cart-button" (click)="onAddToCart()">Adaugă în coș</button>
+            </div>
+        }
+    
+

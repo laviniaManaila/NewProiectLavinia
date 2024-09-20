@@ -1,0 +1,18 @@
+<app-footer></app-footer>
+
+<button (click)="getProducts()">Afișează Produse</button>
+
+    <div class="grid">
+        @if (products) {
+            @for (product of (products && products.length > 0 ? products : products); track product.id ) {
+                <app-product [product]="product" (addToCart)="onAddProductToCart($event)"></app-product>
+            }
+        }
+        
+      
+     </div>
+     <app-cart [cartItems]="cartItems"></app-cart>
+    
+ 
+
+
